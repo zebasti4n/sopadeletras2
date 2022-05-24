@@ -1,0 +1,88 @@
+body{
+    margin: 20px;
+    background-color: #B3CBB9;
+  }
+  
+  p {
+    font: 22pt sans-serif;
+    
+  }
+  
+  
+  .volver{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 40px;
+    top: 540px;
+}
+  
+  .h{
+    position: absolute;
+    width: 698px;
+    height: 300px;
+    left: 10px;
+    top: 474px;
+    text-align: center;
+    font-family: "Homer Simpson UI";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 125px;
+    color: #FFFFFF;
+  }
+  #puzzle {
+    border: 1px solid black;
+    padding: 20px;
+    float: left;
+    margin: 30px 20px;
+    text-align: center;
+  }
+  
+  #puzzle div {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  #puzzle .puzzleSquare {
+    height: 30px;
+    width: 30px;
+    text-transform: uppercase;
+    background-color: #DDD8B8;
+    border: 0;
+    font: 1em sans-serif;
+  }
+  
+  button::-moz-focus-inner {
+    border: 0;
+  }
+  
+  
+  #puzzle .solved {
+    background-color:#2CA58D;
+    color: white;
+  }
+  
+  
+  #words {
+    column-count: 1;
+  }
+  
+  #words ul {
+    list-style-type: none;
+  }
+  
+  #words li {
+    padding: 1px 0;
+    font: 1em sans-serif;
+  }
+  
+  #words .wordFound {
+    text-decoration: line-through;
+    color: red;
+  }
+  
+  
+  #solve {
+    margin: 10px
+  }
